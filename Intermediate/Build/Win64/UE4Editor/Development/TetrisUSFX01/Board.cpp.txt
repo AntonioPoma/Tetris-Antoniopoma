@@ -1,0 +1,40 @@
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Definitions.TetrisUSFX01.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Source\TetrisUSFX01\Board.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Source\TetrisUSFX01\Piece.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Source\TetrisUSFX01\Block.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Block.generated.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE\functional
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE\xmemory
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE\limits
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE\cfloat
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE\cwchar
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE\cstdio
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE\isa_availability.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE\xutility
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Piece.generated.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Board.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\EngineUtils.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Source\TetrisUSFX01\BlockExplosivo.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Source\TetrisUSFX01\BlockGeneral.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Source\TetrisUSFX01\ConstructorBlock.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\ConstructorBlock.generated.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Source\TetrisUSFX01\EstructuraBlock.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\EstructuraBlock.generated.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\BlockGeneral.generated.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\BlockExplosivo.generated.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Source\TetrisUSFX01\BlockMadera.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\BlockMadera.generated.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Source\TetrisUSFX01\BlockPiedra.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\BlockPiedra.generated.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Source\TetrisUSFX01\IngenieroBLock.h
+C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\IngenieroBlock.generated.h

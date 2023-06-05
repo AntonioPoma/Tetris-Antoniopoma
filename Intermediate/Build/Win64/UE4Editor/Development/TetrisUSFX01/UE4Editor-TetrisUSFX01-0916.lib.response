@@ -1,0 +1,31 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TetrisUSFX01-0916.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\TetrisUSFX01Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Block.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\BlockExplosivo.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Board.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\FactoryMethodBase.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\InterfacePiece.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Piece.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\ScenarioA.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\ScenarioB.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\TetrisUSFX01.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\TetrisUSFX01GameModeBase.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Block.gen.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\BlockExplosivo.gen.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Board.gen.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\FactoryMethodBase.gen.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\InterfacePiece.gen.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Piece.gen.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\ScenarioA.gen.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\ScenarioB.gen.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\TetrisUSFX01.init.gen.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\TetrisUSFX01GameModeBase.gen.cpp.obj"
+"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Default.rc2.res"
+/OUT:"C:\Users\anton\Downloads\SIS - 457\TetrisUSFX01-af9b6a867b43eda080cdb667cc053ca6aee5ee5d\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\UE4Editor-TetrisUSFX01-0916.lib"
