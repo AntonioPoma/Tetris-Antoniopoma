@@ -23,4 +23,27 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+protected:
+	//The name of this Potion
+	FString NombreEscenario;
+	//The Gooeyness of this Potion
+	FString Estructura;
+	//The Blood of this Potion
+	FString Posicion;
+	//The herbs contained in this Potion
+	TArray<FString> Material;
+
+
+public:
+	//Boild this potion
+	void Crear();
+	//Bubble this potion
+	void Disenar();
+	//Brew this potion
+	virtual void Elaborar();
+	//Bottle this potion
+	void Finalizar();
+	//Return the Potion Name
+	FString GetNombreEscenario();
+
 };

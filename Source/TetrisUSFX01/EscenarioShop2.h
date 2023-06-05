@@ -13,5 +13,9 @@ UCLASS()
 class TETRISUSFX01_API AEscenarioShop2 : public AEscenarioShop
 {
 	GENERATED_BODY()
-	
+
+public:
+	//Concoct the selected potion
+	virtual AEscenario * Confeccionar(FString EscenarioSKU) override;
+
 };

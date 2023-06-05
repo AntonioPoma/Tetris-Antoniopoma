@@ -2,26 +2,39 @@
 
 
 #include "EstructuraMultirotacion.h"
+#include "Block.h"
 
-// Sets default values
 AEstructuraMultirotacion::AEstructuraMultirotacion()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
+	TiempoAcumulado = 0.0;
 }
 
-// Called when the game starts or when spawned
-void AEstructuraMultirotacion::BeginPlay()
+void AEstructuraMultirotacion::Rotar()
 {
-	Super::BeginPlay();
-	
+	//Super::Rotar();
+	UE_LOG(LogTemp, Warning, TEXT("now can rotate Estructura multirotacional"));
+	FRotator NewRotation = this->GetActorRotation() + FRotator(-1.0, 0.0, 0.0);
+	this->SetActorRelativeRotation(NewRotation);
+
 }
 
-// Called every frame
+void AEstructuraMultirotacion::SpawnBlocks()
+{
+	//Super::SpawnBlocks();
+}
+
 void AEstructuraMultirotacion::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	if (TiempoAcumulado >= 0.5)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("now can move Estructura concreta"));
+		//this->SetActorLocation(this->GetActorLocation() + FVector(0.0, 0.0, -100.0));
+		Rotar();
+		TiempoAcumulado = 0.0;
+	}
+	else
+	{
+		TiempoAcumulado += DeltaTime;
+	}
 }
-

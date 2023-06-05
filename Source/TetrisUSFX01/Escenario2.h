@@ -13,5 +13,13 @@ UCLASS()
 class TETRISUSFX01_API AEscenario2 : public AEscenario
 {
 	GENERATED_BODY()
-	
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+public:
+	//Brew the potion
+	virtual void Elaborar() override;
+
+
 };

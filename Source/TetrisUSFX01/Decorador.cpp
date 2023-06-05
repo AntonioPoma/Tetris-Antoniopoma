@@ -6,7 +6,7 @@
 // Sets default values
 ADecorador::ADecorador()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 }
@@ -15,7 +15,7 @@ ADecorador::ADecorador()
 void ADecorador::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
@@ -23,5 +23,16 @@ void ADecorador::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void ADecorador::Rotar()
+{
+	Estructura->Rotar();
+
+}
+
+void ADecorador::SpawnBlocks()
+{
+	//Estructura->SpawnBlocks();
 }
 

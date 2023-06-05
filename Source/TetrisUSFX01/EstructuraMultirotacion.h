@@ -3,24 +3,20 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "Decorador.h"
 #include "EstructuraMultirotacion.generated.h"
 
 UCLASS()
-class TETRISUSFX01_API AEstructuraMultirotacion : public AActor
+class TETRISUSFX01_API AEstructuraMultirotacion : public ADecorador
 {
 	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
+public:
 	AEstructuraMultirotacion();
+	void Rotar() override;
+	void SpawnBlocks() override;
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+private:
+	float TiempoAcumulado;
 };

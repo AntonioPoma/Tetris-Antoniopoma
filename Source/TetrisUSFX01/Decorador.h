@@ -7,11 +7,11 @@
 #include "Decorador.generated.h"
 
 UCLASS()
-class TETRISUSFX01_API ADecorador : public AActor
+class TETRISUSFX01_API ADecorador : public AActor, public IEstructura
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ADecorador();
 
@@ -19,8 +19,16 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	virtual void Rotar() override;
+	virtual void SpawnBlocks() override;
+	void SetEstructura(IEstructura* _Estructura) {
+		Estructura = _Estructura;
+	}
+
+private:
+	IEstructura* Estructura;
 };

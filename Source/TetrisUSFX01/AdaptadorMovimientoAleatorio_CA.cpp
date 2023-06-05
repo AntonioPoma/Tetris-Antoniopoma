@@ -3,25 +3,18 @@
 
 #include "AdaptadorMovimientoAleatorio_CA.h"
 
-// Sets default values
-AAdaptadorMovimientoAleatorio_CA::AAdaptadorMovimientoAleatorio_CA()
+UAdaptadorMovimientoAleatorio_CA::UAdaptadorMovimientoAleatorio_CA() :
+	Super()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryComponentTick.bCanEverTick = true;
 
+	// ...
+	SetLimitesMovimiento(0.0f, 5.0f, 5.0f);
 }
 
-// Called when the game starts or when spawned
-void AAdaptadorMovimientoAleatorio_CA::BeginPlay()
+void UAdaptadorMovimientoAleatorio_CA::SetLimitesMovimiento(float _XMovimiento, float _YMovimiento, float _ZMovimiento)
 {
-	Super::BeginPlay();
-	
+	AnchoMovimiento = _ZMovimiento;
+	AltoMovimiento = _YMovimiento;
+	ProfundidadMovimiento = _ZMovimiento;
 }
-
-// Called every frame
-void AAdaptadorMovimientoAleatorio_CA::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-

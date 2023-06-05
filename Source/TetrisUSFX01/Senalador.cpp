@@ -3,25 +3,36 @@
 
 #include "Senalador.h"
 
-// Sets default values
-ASenalador::ASenalador()
+// Sets default valuesASenalador::ASenalador()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 }
 
-// Called when the game starts or when spawned
 void ASenalador::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
-// Called every frame
 void ASenalador::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+}
+
+void ASenalador::EstadoCambiado()
+{
+	//When the time has changed, this Clock Tower (that is a Publisher) notifies to all the subscribers that the time has changed
+	NorificarSuscriptores();
+
+}
+
+void ASenalador::DefinirEstado(FString myEstado)
+{
+	//Set the time using the passed parameter and warn that it's changed
+	Estado = myEstado;
+	EstadoCambiado();
 
 }
 

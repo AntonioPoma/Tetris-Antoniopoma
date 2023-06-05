@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-
+#include "Escenario.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "EscenarioShop.generated.h"
@@ -22,5 +22,10 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	virtual AEscenario* Confeccionar(FString EscenarioSKU)PURE_VIRTUAL(AEscenarioShop::Confeccionar, return nullptr;);
+
+	//Order, concoct and returns a Potion of a specific Category
+	AEscenario* OrdenarEscenario(FString Category);
 
 };

@@ -25,3 +25,17 @@ void AEscenarioShop::Tick(float DeltaTime)
 
 }
 
+AEscenario* AEscenarioShop::OrdenarEscenario(FString Category)
+{
+	//Create the Potion and log its name
+	AEscenario* Escenario = Confeccionar(Category);
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Creando %s"), *Escenario->GetNombreEscenario()));
+	//Start the concoct process
+	Escenario->Crear();
+	Escenario->Disenar();
+	Escenario->Elaborar();
+	Escenario->Finalizar();
+	//Returns the created potion
+	return Escenario;
+
+}

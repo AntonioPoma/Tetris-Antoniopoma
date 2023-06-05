@@ -2,26 +2,44 @@
 
 
 #include "ActorSpawnerComponent.h"
+#include "Engine/World.h"
+#include "GameFramework/Actor.h"
 
-// Sets default values
-AActorSpawnerComponent::AActorSpawnerComponent()
+// Sets default values for this component's properties
+UActorSpawnerComponent::UActorSpawnerComponent()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
+	// off to improve performance if you don't need them.
+	PrimaryComponentTick.bCanEverTick = true;
 
+	// ...
 }
 
-// Called when the game starts or when spawned
-void AActorSpawnerComponent::BeginPlay()
+void UActorSpawnerComponent::Spawn()
+{
+	UWorld* TheWorld = GetWorld();
+	if (TheWorld != nullptr)
+	{
+		FTransform ComponentTransform(this->GetComponentTransform());
+		TheWorld->SpawnActor(ActorToSpawn, &ComponentTransform);
+	}
+}
+
+// Called when the game starts
+void UActorSpawnerComponent::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	// ...
+
 }
 
-// Called every frame
-void AActorSpawnerComponent::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
 
+// Called every frame
+void UActorSpawnerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+{
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+	// ...
 }
 

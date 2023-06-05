@@ -22,4 +22,10 @@ class TETRISUSFX01_API IFloorPlan
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
+
+	virtual void SetSwimmingPool(FString SwimmingPool) = 0;
+	virtual void SetLobbyArea(FString LobbyArea) = 0;
+	virtual void SetRooms(FString Rooms) = 0;
+	virtual void SetRestaurants(FString Restaurants) = 0;
+
 };

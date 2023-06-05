@@ -108,6 +108,7 @@ void ABoard::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
     PlayerInputComponent->BindAction("Rotate", IE_Pressed, this, &ABoard::Rotate);
     PlayerInputComponent->BindAction("MoveLeft", IE_Pressed, this, &ABoard::MoveLeft);
+
     PlayerInputComponent->BindAction("MoveRight", IE_Pressed, this, &ABoard::MoveRight);
     PlayerInputComponent->BindAction("MoveDownToEnd", IE_Pressed, this, &ABoard::MoveDownToEnd);
     PlayerInputComponent->BindAction("NewPiece", IE_Pressed, this, &ABoard::NewPiece);
